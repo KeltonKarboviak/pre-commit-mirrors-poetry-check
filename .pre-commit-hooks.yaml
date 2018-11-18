@@ -1,0 +1,9 @@
+- id: poetry-check
+  name: Poetry Check
+  description: "Runs poetry check over your pyproject.toml"
+  entry: poetry
+  args: ["check"]
+  language: python
+  files: "^pyproject.toml$"
+  types: [toml]
+  additional_dependencies: []
