@@ -6,4 +6,5 @@
   language: python
   files: "^pyproject.toml$"
   types: [toml]
+  pass_filenames: false
   additional_dependencies: []
